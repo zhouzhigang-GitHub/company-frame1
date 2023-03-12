@@ -1,0 +1,1612 @@
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10001,procId-4} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10002,procId-5} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10003,procId-6} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10004,procId-7} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10005,procId-8} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 15.2058 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.6309 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10006,procId-9} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10006, pstmt-20001} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : [admin]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10006, pstmt-20001} Types : [VARCHAR]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10006, pstmt-20001} executed. 3.3697 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} open
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} closed
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10006} closed
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10007,procId-10} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10007} pool-connect
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10007, pstmt-20002} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10007, pstmt-20002} Parameters : [admin]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10007, pstmt-20002} Types : [VARCHAR]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10007, pstmt-20002} executed. 2.6462 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50003} open
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50003} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50003} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50003} closed
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10007, pstmt-20002} clearParameters. 
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10007} pool-recycle
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10007} pool-connect
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10007, pstmt-20002} Parameters : [dev123]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10007, pstmt-20002} Types : [VARCHAR]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10007, pstmt-20002} executed. 0.9433 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} open
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f4, dev123, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13666666666, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} closed
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10007, pstmt-20002} clearParameters. 
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10007} pool-recycle
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10007} closed
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10008,procId-11} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10008} pool-connect
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} Parameters : [dev123]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} Types : [VARCHAR]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} executed. 3.2603 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50005} open
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50005} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50005} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f4, dev123, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13666666666, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50005} closed
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} clearParameters. 
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10008} pool-recycle
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10008} pool-connect
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} Parameters : [dev123]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} Types : [VARCHAR]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} executed. 0.7108 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50006} open
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50006} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50006} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f4, dev123, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13666666666, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50006} closed
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} clearParameters. 
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10008} pool-recycle
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10008} pool-connect
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} Parameters : [dev123]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} Types : [VARCHAR]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} executed. 0.6188 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50007} open
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50007} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50007} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f4, dev123, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13666666666, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50007} closed
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} clearParameters. 
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10008} pool-recycle
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10008} pool-connect
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} Parameters : [dev123]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} Types : [VARCHAR]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} executed. 0.829 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50008} open
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50008} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50008} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f4, dev123, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13666666666, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50008} closed
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10008, pstmt-20003} clearParameters. 
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10008} pool-recycle
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10001,procId-12} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10002,procId-13} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10003,procId-14} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10004,procId-15} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10005,procId-16} connected
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 9.6216 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-07][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-07][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-07][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10001,procId-17} connected
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10002,procId-18} connected
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10003,procId-19} connected
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10004,procId-20} connected
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10005,procId-21} connected
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20000} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 11.3444 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [count(0)]
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2]
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20001} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where deleted = 1
+ LIMIT ? 
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : [10]
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20001} Types : [INTEGER]
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 0.8406 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where deleted = 1
+ LIMIT ? 
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f4, dev123, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13666666666, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10001,procId-22} connected
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10002,procId-23} connected
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10003,procId-24} connected
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10004,procId-25} connected
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10005,procId-26} connected
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20000} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 8.9586 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [count(0)]
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2]
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20001} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where deleted = 1
+ LIMIT ? 
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : [10]
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20001} Types : [INTEGER]
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 2.1005 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where deleted = 1
+ LIMIT ? 
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f4, dev123, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13666666666, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-08][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-08][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-08][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-2} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-3} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-4} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-5} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-6} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 32.2496 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110001,procId-7} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110002,procId-8} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110003,procId-9} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110004,procId-10} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110005,procId-11} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-110005, pstmt-120000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-110005, pstmt-120000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-110005, pstmt-120000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-110005, pstmt-120000} executed. 2.7698 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-110005, pstmt-120000, rs-150000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-110005, pstmt-120000, rs-150000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-110005, pstmt-120000, rs-150000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-110005, pstmt-120000, rs-150000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-110005, pstmt-120000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110005} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110004} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110003} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110002} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110006,procId-12} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110001} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110006} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-110006, pstmt-120001} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-110006, pstmt-120001} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-110006, pstmt-120001} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-110006, pstmt-120001} executed. 2.6599 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-110006, pstmt-120001, rs-150001} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-110006, pstmt-120001, rs-150001} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-110006, pstmt-120001, rs-150001} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-110006, pstmt-120001, rs-150001} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-110006, pstmt-120001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110006} pool-recycle
+[DEBUG][21-05-11][druid.sql.Statement]{conn-110006, pstmt-120001} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-110006} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210001,procId-13} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210002,procId-14} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210003,procId-15} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210004,procId-16} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210005,procId-17} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210005} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210005, pstmt-220000} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210005, pstmt-220000} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210005, pstmt-220000} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210005, pstmt-220000} executed. 2.0947 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210005, pstmt-220000, rs-250000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210005, pstmt-220000, rs-250000} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210005, pstmt-220000, rs-250000} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210005, pstmt-220000, rs-250000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210005, pstmt-220000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210005, pstmt-220000} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210005, pstmt-220000} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210005, pstmt-220000} executed. 1.3451 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210005, pstmt-220000, rs-250001} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210005, pstmt-220000, rs-250001} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210005, pstmt-220000, rs-250001} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210005, pstmt-220000, rs-250001} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210005, pstmt-220000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210005} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210004} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210003} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210002} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210001} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210006,procId-18} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210006} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210006, pstmt-220001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210006, pstmt-220001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210006, pstmt-220001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210006, pstmt-220001} executed. 3.0527 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210006, pstmt-220001, rs-250002} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210006, pstmt-220001, rs-250002} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210006, pstmt-220001, rs-250002} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210006, pstmt-220001, rs-250002} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210006, pstmt-220001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210006} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210006} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210006, pstmt-220001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210006, pstmt-220001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210006, pstmt-220001} executed. 0.6628 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210006, pstmt-220001, rs-250003} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210006, pstmt-220001, rs-250003} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210006, pstmt-220001, rs-250003} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-210006, pstmt-220001, rs-250003} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210006, pstmt-220001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210006} pool-recycle
+[DEBUG][21-05-11][druid.sql.Statement]{conn-210006, pstmt-220001} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-210006} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-19} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-20} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-21} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-22} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-23} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 14.0779 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 1.1059 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 1.1027 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50002} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50002} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50002} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50002} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 0.5928 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50003} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50003} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50003} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50003} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 0.7195 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50004} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50004} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50004} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50004} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 0.7926 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50005} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50005} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50005} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50005} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 0.7516 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50006} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50006} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50006} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50006} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 1.0155 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50007} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50007} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50007} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50007} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 0.5661 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50008} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50008} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50008} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50008} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-26} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-27} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-28} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-29} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-30} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 17.7321 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 1.3881 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-31} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-32} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-33} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-34} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-35} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 19.091 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 1.7821 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-36} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-37} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-38} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-39} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-40} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 21.7973 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10006,procId-41} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10007,procId-42} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10007} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10007, pstmt-20001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10007, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10007, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10007, pstmt-20001} executed. 3.3859 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10007, pstmt-20001, rs-50001} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10007, pstmt-20001, rs-50001} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10007, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10007, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10007, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10007} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-43} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-44} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-45} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-46} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-47} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 28.1446 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 2.8395 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10006,procId-48} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10006, pstmt-20002} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10006, pstmt-20002} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10006, pstmt-20002} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10006, pstmt-20002} executed. 3.7214 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10006, pstmt-20002, rs-50002} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10006, pstmt-20002, rs-50002} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10006, pstmt-20002, rs-50002} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10006, pstmt-20002, rs-50002} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10006, pstmt-20002} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10006, pstmt-20002} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10006} closed
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-49} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-50} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-51} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-52} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-53} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 14.7294 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 0.6312 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-59} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-60} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-61} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-62} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-63} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 17.1882 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-64} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-65} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-66} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-67} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-68} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 18.0802 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-69} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-70} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-71} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-72} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-73} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 20.7493 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 1.0507 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-74} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-75} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-76} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-77} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-78} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 19.0096 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 2.1061 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20002} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where deleted=1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20002} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20002} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20002} executed. 1.5359 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where deleted=1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f4, dev123, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13666666666, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20002} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-79} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-80} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-81} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-82} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-83} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 17.6358 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 0.9325 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20002} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where deleted=1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20002} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20002} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20002} executed. 0.8068 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where deleted=1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f4, dev123, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13666666666, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20002} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10001,procId-84} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10002,procId-85} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10003,procId-86} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10004,procId-87} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005,procId-88} connected
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 11.8451 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 0.7527 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [count(0)]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][21-05-11][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-11][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-11][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10001,procId-2} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10002,procId-3} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10003,procId-4} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10004,procId-5} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005,procId-6} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 17.8645 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.8295 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10001,procId-12} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10002,procId-13} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10003,procId-14} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10004,procId-15} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005,procId-16} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 11.3887 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10001,procId-17} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10002,procId-18} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10003,procId-19} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10004,procId-20} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005,procId-21} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 16.681201 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 2.891501 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [count(0)]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20002} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where deleted=1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20002} Parameters : []
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20002} Types : []
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20002} executed. 0.8272 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where deleted=1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f4, dev123, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13666666666, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20002} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10001,procId-22} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10002,procId-23} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10003,procId-24} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10004,procId-25} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005,procId-26} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 12.8649 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.4547 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10001,procId-27} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10002,procId-28} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10003,procId-29} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10004,procId-30} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005,procId-31} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 10.2166 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10001,procId-32} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10002,procId-33} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10003,procId-34} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10004,procId-35} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005,procId-36} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 10.1724 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 2.1728 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10001,procId-42} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10002,procId-43} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10003,procId-44} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10004,procId-45} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005,procId-46} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 12.8883 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20001} created. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 1.3645 millis. SELECT count(0) FROM sys_user WHERE deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [count(0)]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20002} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where deleted=1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20002} Parameters : []
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20002} Types : []
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20002} executed. 0.6684 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where deleted=1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f4, dev123, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13666666666, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} Result: [9a26f5f1-cbd2-473d-82db-1d6dcf4598f8, admin, 324ce32d86224b00a02b, ac7e435db19997a46e3b390e69cb148b, 13888888888, 24f41c71-5a95-4ef4-9493-
+174574f3b0c5, null, null, yingxue@163.com, 1, null, 1, null, null, 3, 2019-09-23 03:38:05.0, null]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20002, rs-50002} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20002} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10001,procId-76} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10002,procId-77} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10003,procId-78} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10004,procId-79} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005,procId-80} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 9.5025 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [fcf34b56-a7a2-4719-9236-867495e74c31, admin, c1f4a8a78e7d4186ac0b, 0bb084e2d41204ab2c5ef1fc1b743218, 13888888888, 06e8066d-fbb9-4904-b71a-e75fc06b19a6, 迎学教育, 小霍, yingxue02@163.com, 1, 2, 1, null, fcf34b56-a7a2-4719-9236-867495e74c31, 3, 2019-09-23 03:38:05.0, 2020-01-08 23:19:38.0]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10001,procId-81} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10002,procId-82} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10003,procId-83} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10004,procId-84} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005,procId-85} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 13.6352 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [fcf34b56-a7a2-4719-9236-867495e74c31, admin, c1f4a8a78e7d4186ac0b, 0bb084e2d41204ab2c5ef1fc1b743218, 13888888888, 06e8066d-fbb9-4904-b71a-e75fc06b19a6, 迎学教育, 小霍, yingxue02@163.com, 1, 2, 1, null, fcf34b56-a7a2-4719-9236-867495e74c31, 3, 2019-09-23 03:38:05.0, 2020-01-08 23:19:38.0]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.1833 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [fcf34b56-a7a2-4719-9236-867495e74c31, admin, c1f4a8a78e7d4186ac0b, 0bb084e2d41204ab2c5ef1fc1b743218, 13888888888, 06e8066d-fbb9-4904-b71a-e75fc06b19a6, 迎学教育, 小霍, yingxue02@163.com, 1, 2, 1, null, fcf34b56-a7a2-4719-9236-867495e74c31, 3, 2019-09-23 03:38:05.0, 2020-01-08 23:19:38.0]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.2817 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [fcf34b56-a7a2-4719-9236-867495e74c31, admin, c1f4a8a78e7d4186ac0b, 0bb084e2d41204ab2c5ef1fc1b743218, 13888888888, 06e8066d-fbb9-4904-b71a-e75fc06b19a6, 迎学教育, 小霍, yingxue02@163.com, 1, 2, 1, null, fcf34b56-a7a2-4719-9236-867495e74c31, 3, 2019-09-23 03:38:05.0, 2020-01-08 23:19:38.0]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.7948 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} Result: [fcf34b56-a7a2-4719-9236-867495e74c31, admin, c1f4a8a78e7d4186ac0b, 0bb084e2d41204ab2c5ef1fc1b743218, 13888888888, 06e8066d-fbb9-4904-b71a-e75fc06b19a6, 迎学教育, 小霍, yingxue02@163.com, 1, 2, 1, null, fcf34b56-a7a2-4719-9236-867495e74c31, 3, 2019-09-23 03:38:05.0, 2020-01-08 23:19:38.0]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-12][druid.sql.Connection]{conn-110001,procId-86} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-110002,procId-87} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-110003,procId-88} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-110004,procId-89} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-110005,procId-90} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-110005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-110005, pstmt-120000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-110005, pstmt-120000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-110005, pstmt-120000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-110005, pstmt-120000} executed. 1.9057 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-110005, pstmt-120000, rs-150000} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-110005, pstmt-120000, rs-150000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-110005, pstmt-120000, rs-150000} Result: [fcf34b56-a7a2-4719-9236-867495e74c31, admin, c1f4a8a78e7d4186ac0b, 0bb084e2d41204ab2c5ef1fc1b743218, 13888888888, 06e8066d-fbb9-4904-b71a-e75fc06b19a6, 迎学教育, 小霍, yingxue02@163.com, 1, 2, 1, null, fcf34b56-a7a2-4719-9236-867495e74c31, 3, 2019-09-23 03:38:05.0, 2020-01-08 23:19:38.0]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-110005, pstmt-120000, rs-150000} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-110005, pstmt-120000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-110005} pool-recycle
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10001,procId-2} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10002,procId-3} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10003,procId-4} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10004,procId-5} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005,procId-6} connected
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 16.5692 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [fcf34b56-a7a2-4719-9236-867495e74c31, admin, c1f4a8a78e7d4186ac0b, 0bb084e2d41204ab2c5ef1fc1b743218, 13888888888, 06e8066d-fbb9-4904-b71a-e75fc06b19a6, 迎学教育, 小霍, yingxue02@163.com, 1, 2, 1, null, fcf34b56-a7a2-4719-9236-867495e74c31, 3, 2019-09-23 03:38:05.0, 2020-01-08 23:19:38.0]
+[DEBUG][21-05-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10001,procId-2} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10002,procId-3} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10003,procId-4} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10004,procId-5} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005,procId-6} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} created. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 17.9142 millis. select  
+    id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, 
+    sex, deleted, create_id, update_id, create_where, create_time, update_time
+   
+    from sys_user
+    where username = ?
+    and deleted = 1
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, username, salt, password, phone, dept_id, real_name, nick_name, email, status, sex, deleted, create_id, update_id, create_where, create_time, update_time]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [fcf34b56-a7a2-4719-9236-867495e74c31, admin, c1f4a8a78e7d4186ac0b, 0bb084e2d41204ab2c5ef1fc1b743218, 13888888888, 06e8066d-fbb9-4904-b71a-e75fc06b19a6, 迎学教育, 小霍, yingxue02@163.com, 1, 2, 1, null, fcf34b56-a7a2-4719-9236-867495e74c31, 3, 2019-09-23 03:38:05.0, 2020-01-08 23:19:38.0]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} closed
